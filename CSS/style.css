@@ -12,6 +12,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 *{
     padding: 0;
     margin: 0;
@@ -94,6 +97,9 @@ header nav .left a:hover{
 .btn-secondary:hover{
     background:var(--light);
     color:var(--dark);
+}
+.btn-secondary a, .btn-secondary a:hover{
+    color: lightseagreen;
 }
 
 section{
