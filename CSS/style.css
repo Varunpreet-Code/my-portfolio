@@ -129,7 +129,7 @@ section.about p{
     font-family: 'Poppins', sans-serif;
     line-height: 1.9;
 }
-section.about.projects h1{
+section.about h1{
     margin-bottom: 1rem;
     font-size:2rem;
     font-weight: 400;  
@@ -143,11 +143,11 @@ section.middle  h1{
 }
 section.middle li{
     background-color: black;
-  width: 1000px;
-  border: 5px solid lightseagreen;
+  list-style: none;
+  border: 2px solid lightseagreen;
   padding: 50px;
   margin: 20px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 section.middle li{
     font-family: 'Poppins', sans-serif;
@@ -160,10 +160,22 @@ section.projects h1span{
 
 
 }
+section.projects p{
+    background-color: black;
+    width: 1000px;
+    border: 5px solid lightseagreen;
+    padding: 50px;
+    margin: 20px;
+    font-size: 1.5rem;
+}
 
-section.projects h1{
-    font-size: 10px;
+section.Study h1{
+    font-size: 2rem;
     font-weight: 400;
     margin-bottom: 1rem;
 }
+
+
+
+
 
