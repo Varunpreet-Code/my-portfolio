@@ -285,3 +285,7 @@ section#home {
 
   color:lightblue;
 }
+.contact-btn {
+  display: flex;
+  justify-content: center;
+}
