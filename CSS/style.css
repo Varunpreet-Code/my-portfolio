@@ -267,6 +267,8 @@ section.work p{
     line-height: 1.9;
         color:#857575;  
 }
+section.work h1span{
+    color:var(--light)
 
 section.work h1{
     font-size: 30px;
