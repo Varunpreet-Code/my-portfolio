@@ -1,275 +1,287 @@
-
-
-@import 'utilities.css';
-:root{
-    --primary:#F7FFF7;
-    --dark:#0c0b0b;
-    --pure:#857575;
-    --ternary:#F0F3BD;
-    --light:#4ECDC4;
+@import "utilities.css";
+:root {
+  --primary: #f7fff7;
+  --dark: #0c0b0b;
+  --pure: #857575;
+  --ternary: #f0f3bd;
+  --light: #4ecdc4;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-h1{
-    margin-bottom: 1rem;
-    font-size:2.1rem;
-    font: weight 400;
-
+h1 {
+  margin-bottom: 1rem;
+  font-size: 2.1rem;
+  font: weight 400;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-}
-
-header{
-    background: var(--dark);
-    
-}
-.container{
-    max-width: 1152px;
-    padding: 0 15px;
-    margin: 0 auto;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
 }
 
-header nav .left a{
-    color:var(--primary);
-    text-decoration: none;
-    
+header {
+  background: var(--dark);
+}
+.container {
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header nav .left a {
+  color: var(--primary);
+  text-decoration: none;
 }
 
 header nav {
-    padding: 2rem 0;
+  padding: 2rem 0;
 }
 
-header nav .logo{ 
-    margin-right: 3rem;
+header nav .logo {
+  margin-right: 3rem;
 }
 
-
-
-header nav .left a{
-    margin-right:2rem;
-    text-transform:uppercase;
-    transition:all .3s  ease;
-    
+header nav .left a {
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
 }
 
-header nav .left a:hover{
-    color: var(--pure); 
-}
- h1 {
-    background-color: black;
-    color: white;
-    font-size:2.7rem;
-    font-weight:100;
-    line-height:1.2;
-    margin-bottom:2rem;
-  }
-  h1 span{
-      color:var(--light);
-  }
-
-
-    h6 {
-        background-color: black;
-        color:#857575;
-        font-size:1.6rem;
-        Color:var(--light);
-        margin-bottom:1rem;
-    }
-    
-        
-    
-    p {
-        background-color: black;
-        color:#857575;
-        line-height: 1.9;
-        font-size: 1.2rem;
-        margin-bottom: 2rem;
-    }
-
-    .btn-secondary{
-        background:transparent;
-        color:var(--light);
-        border-color:var(--light);
-}
-.btn-secondary:hover{
-    background:var(--light);
-    color:var(--dark);
-}
-.btn-secondary a, .btn-secondary a:hover{
-    color: lightseagreen;
+header nav .left a:hover {
+  color: var(--pure);
 }
 
-section{
-    padding: 6rem 0;
-    background-color: var(--dark);
-}
-section.about .about-me-img{
-    height:350px;
-    width:350px;
-}
-
-section.about h1{
-    margin-bottom: 1rem;
-    font-size:2.1rem;
-    font: weight 400;
-
-}
-section.about h1 span{
-    color:var(--light)
-    
+h1 {
+  background-color: black;
+  color: white;
+  font-size: 2.7rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 2rem;
 }
 
-section.about h3{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    font-weight: 400;
-    
+h1 span {
+  color: var(--light);
 }
-section.about h3{
-    color:var(--primary); 
-}
-section.about p{
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.9;
-}
-section.about h1{
-    margin-bottom: 1rem;
-    font-size:2rem;
-    font-weight: 400;  
-}
-section.middle  h1{
-    margin-bottom: 1rem;
-    font-size:2rem;
-    font-weight: 400;  
 
-
+h6 {
+  background-color: black;
+  color: #857575;
+  font-size: 1.6rem;
+  color: var(--light);
+  margin-bottom: 1rem;
 }
-section.middle li{
-    background-color: black;
+
+p {
+  background-color: black;
+  color: #857575;
+  line-height: 1.9;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-secondary,
+.btn-secondary a {
+  background: transparent;
+  color: var(--light);
+  border-color: var(--light);
+  margin: 0;
+  text-decoration: none;
+}
+.btn-secondary:hover,
+.btn-secondary a:hover {
+  background: var(--light);
+  color: var(--dark);
+  text-decoration: none;
+}
+
+section {
+  padding: 6rem 0;
+  background-color: var(--dark);
+}
+section.about .about-me-img {
+  height: 350px;
+  width: 350px;
+}
+
+section.about h1 {
+  margin-bottom: 1rem;
+  font-size: 2.1rem;
+  font: weight 400;
+}
+section.about h1 span {
+  color: var(--light);
+}
+
+section.about h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+section.about h3 {
+  color: var(--primary);
+}
+section.about p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.9;
+}
+section.about h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+section.middle h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+section.middle li {
+  background-color: black;
   list-style: none;
   border: 2px solid lightseagreen;
   padding: 50px;
   margin: 20px;
   font-size: 1.3rem;
 }
-section.middle li{
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.9;
-        color:#857575;
-    
+section.middle li {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.9;
+  color: #857575;
 }
-section.projects h1span{
-    color:var(--light)
-
-
+section.projects h1span {
+  color: var(--light);
 }
-section.projects p{
-    background-color: black;
-    width: 1000px;
-    border: 5px solid lightseagreen;
-    padding: 50px;
-    margin: 20px;
-    font-size: 1.5rem;
+section.projects p {
+  background-color: black;
+  width: 1000px;
+  border: 5px solid lightseagreen;
+  padding: 50px;
+  margin: 20px;
+  font-size: 1.5rem;
 }
 
-section.Study h1{
-    font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 1rem;
+section.Study h1 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
 
-section.contact .input-wrap-2{
-    display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap:2rem;
-    margin-bottom: 2rem;
+section.contact .input-wrap-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 form {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    color: lightyellow;
-  }
-  
-  form li + li {
-    margin-top: 1em;
-  }
-  
-  label {
-    /* Uniform size & alignment */
-    display: inline-block;
-    width: 90px;
-    text-align: right;
-  }
-  
-  input, 
-  textarea {
-    /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-    font: 1em sans-serif;
-  
-    /* Uniform text field size */
-    width: 300px;
-    box-sizing: border-box;
-  
-    /* Match form field borders */
-    border: 1px solid #999;
-  }
-  
-  input:focus, 
-  textarea:focus {
-    /* Additional highlight for focused elements */
-    border-color: #000;
-  }
-  
-  textarea {
-    /* Align multiline text fields with their labels */
-    vertical-align: top;
-  
-    /* Provide space to type some text */
-    height: 5em;
-  }
-  
-  .button {
-    /* Align buttons with the text fields */
-    padding-left: 90px; /* same size as the label elements */
-  }
-  
-  button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    margin-left: .5em;
-    margin-top: 1em;
-  }
-
-section.work p{
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.9;
-        color:#857575;  
+  /* Center the form on the page */
+  margin: 0 auto;
+  min-width: 300px;
+  max-width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
 }
-section.work h1span{
-    color:var(--light)
 
-section.work h1{
-    font-size: 30px;
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: lightyellow;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  
+  font: 1em sans-serif;
+
+  
+  min-width: 250px;
+  /* max-width: 300px; */
+  box-sizing: border-box;
+
+  
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+ 
+  border-color: #000;
+}
+
+textarea {
+
+  vertical-align: top;
+
+  height: 5em;
+}
+
+.button {
+  
+  padding-left: 90px; 
+}
+
+button {
+ 
+  margin-left: 0.5em;
+  margin-top: 1em;
+}
+
+section.work p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.9;
+  color: #857575;
+}
+section.work h1 span {
+  color: var(--light);
+}
+section.work h1 {
+  font-size: 30px;
+}
+.links > a {
+  margin-left: 10px;
+}
+
+section#home {
+  padding-top: 5rem;
+}
+
+.bg-dark {
+  background-color: black !important;
+}
+.navbar-light .navbar-toggler {
+  background-color: #fff;
+  margin: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+@media (max-width: 340px) {
+  header nav .logo {
+    margin-right: 2rem;
+  }
+}
+.navbar-light .navbar-nav .nav-link:hover { 
+
+  color:lightblue;
 }
