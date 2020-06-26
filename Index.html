@@ -32,7 +32,7 @@
 </div>
 
 <div>
-<a href="#">Home</a>
+<a href="#home">Home</a>
 <a href="#about">About</a>
 <a href="#project">Project</a>
 <a href="#education">Education</a>
@@ -49,7 +49,7 @@
 
 </div>
 
-<div class="right flex-1">
+<div id="home"class="right flex-1">
     <h6>Varunpreet Kaur</h6>
     <h1>I'm a Creative <span>Designer</span></h1>
 <p>I am Varunpreet Kaur,graduated with Master of Commerce, majoring in Information System 
@@ -66,7 +66,10 @@
   
 </div>
 <a href="https://www.linkedin.com/in/varunpreet-kaur-778284185/" target="_blank">
-<i class="fa fa-linkedin" style="color: red; font-size: 50px"></i>
+<i class="fa fa-linkedin" style="color:lightseagreen; font-size: 50px"></i>
+
+<a href="https://github.com/Varunpreet-Code" target="_black"
+<i class="fa fa-github" style="font-size:48px;color:lightcoral"></i>
 
 </a>
 </div>
@@ -122,11 +125,14 @@
     <div class="container flex items-center">
     <div class="flex-1">
 
-     <h1>University <span>Projects</span></h1>
-<p> ashdfjjdskfasdfgasdfgasdfASD</p>
-<p>sdfghasdfghasdfghasdfghasdfghasdfg</p>
-<p>fghrdtfyguhrdtfygrsdtfygsrdtfrdtfydt</p>
+     <h1>University and She Codes <span>Projects</span></h1>
+     <p>Reseach paper on Accociation of Information system journals</p>
 
+<p>Data Mining project for customer buying behaviour</p>
+<p>Green IT project for Polytechnic west</p>
+<p>Portfolio website using HTML and CSS</p>
+<p>Phyton for process data</p>
+<p>Django project</p>
 </div>
 </div>
 </section>
@@ -134,8 +140,8 @@
 <section id= "work"class="Experience">
     <div class="container">
         <h1> Where I Work</h1>
-        <li> IT support at Perth College of Business and Technology</li>
-        
+        <p> IT support and Assitant admission at Perth College of Business and Technology</p>     
+        <p> Customer Service Attendent-Caltex</p> 
 
 
 
@@ -148,38 +154,34 @@
 <section id="contact"class= "Contact">
     <div class="container">
 <h1 class="Heading">Contact Me</h1>
-<form action="">
-    <div class="input-wrap">
-        <input type="text" placeholder="Your Name*">
-        <input type="text" placeholder="Last Name*">
-        <input type="email" placeholder="Your Email*">
-        </div>
-        
-        <div class="input-wrap-2">
-        <input type="text" placeholder="Your Message">
-        </div>
-        <div>
-            <button class=" btn btn-primary">Send Message</button>
-        </div>
-        
-</form>
-
-
-
-
-
-
-
-
+<form action="/my-handling-form-page" method="post">
+    <ul>
+     <li>
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="user_name">
+     </li>
+     <li>
+       <label for="mail">E-mail:</label>
+       <input type="email" id="mail" name="user_email">
+     </li>
+     <li>
+       <label for="msg">Message:</label>
+       <textarea id="msg" name="user_message"></textarea>
+     </li>
+    </ul>
+    <div>
+        <button class=" btn btn-primary">Send Message</button>
     </div>
-
-
-
-
-
-
-
+    
+   </form>
 </section>
+
+
+
+
+
+
+
 
 
 
